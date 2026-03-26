@@ -1,0 +1,5 @@
+Codename: noble
+Architectures: amd64
+Components: main 
+Description: Diladele B.V. Online Repository for Squid 7.4 for Ubuntu 24.04 LTS
+SignWith: 5A7AF0DE
