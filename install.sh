@@ -7,7 +7,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # get diladele apt key, dearmor it and add to trusted storage
-curl https://packages.diladele.com/diladele_pub.asc | gpg --dearmor >/etc/apt/trusted.gpg.d/diladele_pub.asc.gpg
+curl https://www.diladele.com/pkg/diladele_pub.asc | gpg --dearmor >/etc/apt/trusted.gpg.d/diladele_pub.asc.gpg
 
 # add new repo
 echo "deb https://diladele.github.io/repo-squid-7_5_1-ubuntu-24_04/repo/ubuntu/ noble main" \
